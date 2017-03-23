@@ -37,6 +37,10 @@ class Dispatcher
      */
     protected $_auto_render = TRUE;
 
+    protected $_returnResponse = FALSE;
+    
+    protected $_instantly_flush = FALSE;
+
     /**
      * Dispatcher constructor.
      */
@@ -172,13 +176,22 @@ class Dispatcher
     }
 
     /**
+     * getView
+     * @description get view
+     * @return View\Simple|ViewInterface
+     */
+    public function getView()
+    {
+
+    }
+    /**
      * initView
      * @description Init View
      * @param null|string $templates_dir
      * @param array $options
      * @return View\Simple|ViewInterface
      */
-    public function initView($templates_dir = NULL, $options = [])
+    public function initView($templates_dir = NULL, array $options = [])
     {
 
     }

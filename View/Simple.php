@@ -47,8 +47,8 @@ class Simple implements \Syx\ViewInterface {
      * @param  string|array     The assignment strategy to use.
      * @param  mixed (Optional) If  assigning a named variable, use this
      *                              as the value.
-     * @return Syx\View\Simple
-     * @throws Syx\Exception\LoadFailed\View if $name is
+     * @return \Syx\View\Simple
+     * @throws \Syx\Exception\LoadFailed\View if $name is
      *                              neither a string nor an array,
      */
     public function assign( $name, $value = NULL ) {
