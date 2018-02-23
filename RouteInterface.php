@@ -5,24 +5,22 @@
 
 namespace Syx;
 
-use Syx\Request\Http;
-
 interface RouteInterface
 {
     /**
      * route
      * @description Processes a request and sets its controller and action.  If no route was possible, default route is set
      * @param RequestAbstract $request
-     * @return Http|RequestAbstract
+     * @return RequestAbstract
      */
-    public function route(RequestAbstract $request);
+    public function route($request);
 
     /**
      * assemble
      * @description Assemble a url
-     * @param array $param
+     * @param array $info
      * @param array $query
      * @return string
      */
-    public function assemble(array $param, array $query);
+    public function assemble(array $info, array $query = null);
 }

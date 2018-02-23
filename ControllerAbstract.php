@@ -194,7 +194,7 @@ abstract class ControllerAbstract
      * @param  array $parameters add those variables to the view
      * @return void
      */
-    protected function render($tpl = NULL, $parameters = [ ])
+    protected function render($tpl = NULL, array $parameters = [ ])
     {
 
     }

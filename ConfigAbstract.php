@@ -21,7 +21,7 @@ abstract class ConfigAbstract
      * get
      * @description Get
      * @param string $name
-     * @return mixed
+     * @return ConfigAbstract
      */
     abstract public function get($name);
 

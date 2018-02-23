@@ -5,6 +5,12 @@
 
 namespace Syx;
 
+/**
+ * Class RequestAbstract
+ * @package Syx
+ * @description
+ * @method getQuery()
+ */
 abstract class RequestAbstract
 {
 
