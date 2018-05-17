@@ -13,7 +13,7 @@ interface RouteInterface
      * @param RequestAbstract $request
      * @return RequestAbstract
      */
-    public function route($request);
+    public function route(\Syx\RequestAbstract $request);
 
     /**
      * assemble
