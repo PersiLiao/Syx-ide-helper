@@ -352,7 +352,7 @@ abstract class RequestAbstract
     /**
      * setParam
      * @description Set an action parameter
-     * @param string $name
+     * @param array|string $name
      * @param mixed|null $value
      * @return Request\Http|RequestAbstract
      */
