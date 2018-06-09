@@ -1,0 +1,18 @@
+{
+    "name": "persi/syx-ide-helper",
+    "description": "syx framework ide helper",
+    "license": "Apache-2.0",
+    "authors": [{
+        "name": "PersiLiao",
+        "email": "persi@sixsir.com",
+        "role": "developer"
+    }],
+    "require": {
+        "php": ">=7.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Syx\\": "src/"
+        }
+    },
+}
