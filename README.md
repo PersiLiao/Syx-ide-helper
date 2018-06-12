@@ -1,2 +1,17 @@
-# Syx-ide-helper
-Syx 在IDE下自动识别类、函数、宏，自动补全函数名、参数等。
+Syx Auto Complete
+=================
+
+## Usage
+### Composer (recommended)：
+
+```shell
+composer require "syx/syx-ide-helper"
+```
+
+### Text editor：
+
+Put the source code in your project.
+
+### IDE
+
+Put the source code path into `Include Path` in IDE.
